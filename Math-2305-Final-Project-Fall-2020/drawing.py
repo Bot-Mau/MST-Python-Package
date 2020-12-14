@@ -14,6 +14,6 @@ def draw_subtree(G, T):
     labels = netx.get_edge_attributes(G, 'weight')
     netx.draw_networkx(G, pos, with_labels=True)
     netx.draw_networkx_edge_labels(G, pos, edge_labels= labels)
-    netx.draw_networkx_edges(G, pos, edgelist=T.edges(), width=0, alpha=0.5, edge_color='r',)
-    netx.draw_networkx_nodes(G, pos, nodelist=T.nodes(), node_color='r', node_size=500, alpha=0.8)
+    netx.draw_networkx_edges(G, pos, edgelist=T.edges(), width=5, alpha=0.5, edge_color='g',)
+    netx.draw_networkx_nodes(G, pos, nodelist=T.nodes(), node_color='b', node_size=500, alpha=0.5)
     plt.show()
