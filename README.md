@@ -1,4 +1,6 @@
-# Solving the Minnimum Spanning Tree problem using Python
+# Solving the Minnimum Spanning Tree problem
+### **Built with**
+Python
 Math 2305 Final Project by Austin Foster, Gabriel Ceballos, Lymari Nguyen, Mauricio Aramburu, and Minh Thach.
 
 In this project we are implementing Prim's Algorithm to solve the minimum spanning tree problem. We are using set graphs, which we have solved for the MST manually, to verify the functionality of the project.
