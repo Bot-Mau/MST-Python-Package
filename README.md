@@ -1,5 +1,6 @@
 # Solving the Minnimum Spanning Tree problem
-### **Built with** Python
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 Math 2305 Final Project by Austin Foster, Gabriel Ceballos, Lymari Nguyen, Mauricio Aramburu, and Minh Thach.
 
