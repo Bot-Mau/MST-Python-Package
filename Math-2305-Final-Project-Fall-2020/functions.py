@@ -6,7 +6,7 @@ def V(graph):
 
 def E(graph):
     #this function return all edges in the graph
-    return set(graph.nodes())
+    return set(graph.edges())
 
 def prims_init(graph, v):
     #This function adds node v into existing graph T. The return value is graph T after added node v
