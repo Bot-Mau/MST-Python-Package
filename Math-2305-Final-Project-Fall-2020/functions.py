@@ -33,9 +33,9 @@ def possible_edges(G, T):
             if e[0] not in V(T) or e[1] not in V(T)]
 
 def min_cost_edge(G, T):
-    #the function return the smallest edge of the graph. the function calls possible_edge in order to
-    #remove duplicated edge. Then the fuction will compare one edge to another using binary comparsion
-    #and store smallest value in min_edge. it will return min_edge after the loop exterminates
+    #the function returns the smallest edge of the graph G. the function calls possible_edge in order to
+    #remove duplicated edge and stores them in temp_edge. Then the fuction will compare one edge to another using binary comparsion
+    #in temp_edges. It stores smallest value in min_edge. it will return min_edge after the loop exterminates
     temp_edges = possible_edges(G, T) 
     #comparing one edge to another by weight to get the smalles edge weight
     min_edge = temp_edges[0]
