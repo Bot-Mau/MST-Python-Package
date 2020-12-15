@@ -6,9 +6,11 @@
 * [Introduction](#introduction)
 * [Prim's Algorithm](#prims-algorithm)
 * [Technologies](#technologies)
+* [Sources](#sources)
 
 ## Introduction
 Math 2305 Final Project by Austin Foster, Gabriel Ceballos, Lymari Nguyen, Mauricio Aramburu, and Minh Thach.
+
 In this project we are implementing Prim's Algorithm to solve the minimum spanning tree problem. We are using set graphs, which we have solved for the MST manually, to verify the functionality of the project.
 
 ## Prim's Algorithm 
@@ -23,3 +25,7 @@ This is an example of a graph created by our program. Of course, the graph will 
 * Anaconda Navigator
 * Spyder - Scientific Python IDE ver. 4.1.4
 * Using libraries: `networkx`, `matplotlib`
+
+### Sources
+[Readme markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Badges](https://github.com/Naereen/badges)
