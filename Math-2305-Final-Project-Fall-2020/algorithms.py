@@ -25,6 +25,6 @@ def prims_algorithm(G, starting_vertex, show_graph = False, show_cost = False):
            draw_subtree(G, T)
    #show cost
    if show_cost == True:
-        c = sum(cost(G, e) for e in T.edges())
+        c = sum(cost(G, e) for e in E(T))
         print(f'The cost of this spanning tree is {c}')
    return T
