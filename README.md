@@ -19,6 +19,8 @@ Prim's algorithm is a greedy algorithm that is guaranteed to return the Minimum 
 ### Graph Example
 This is an example of a graph created by our program. Of course, the graph will change according to the Gx.txt file that the program runs. 
 
+*Note: This is the graph before Prim's algorithm was run. After Prim's the edges that make up the MST will be highlighted.*
+
 ![](PNGs/samplegraph.PNG)
 
 ### Technologies
