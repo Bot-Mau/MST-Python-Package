@@ -5,8 +5,7 @@ def V(graph):
     return set(graph.nodes())
 
 def E(graph):
-    #this function is same with V(graph), but it is used to avoid same definition of function
-    #during comparision
+    #this function return all edges in the graph
     return set(graph.nodes())
 
 def prims_init(graph, v):
