@@ -21,7 +21,7 @@ This is an example of a graph created by our program. Of course, the graph will 
 
 ![](PNGs/samplegraph.PNG)
 
-*Note: This is the graph before Prim's algorithm was run. After Prim's the edges that make up the MST will be highlighted.*
+*Note: This is the graph before Prim's algorithm was run. After Prim's, the edges that make up the MST will be highlighted.*
 
 ### Technologies
 * Anaconda Navigator
