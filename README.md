@@ -27,5 +27,5 @@ This is an example of a graph created by our program. Of course, the graph will 
 * Using libraries: `networkx`, `matplotlib`
 
 ### Sources
-[Readme markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-[Badges](https://github.com/Naereen/badges)
+* [Readme markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Badges](https://github.com/Naereen/badges)
