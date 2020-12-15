@@ -6,7 +6,7 @@ def V(graph):
 #
 def E(graph):
     return set(graph.nodes())
-#creat graph
+#create graph
 def prims_init(graph, v):
     if v not in V(graph):
         return "Enter vertex not found"
