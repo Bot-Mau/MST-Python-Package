@@ -25,6 +25,8 @@ def prims_algorithm(G, starting_vertex, show_graph = False, show_cost = False):
            draw_subtree(G, T)
    #show cost
    if show_cost == True:
+        #the function doing sum by calling E(graph) function to add all egdes in T graph
+        #and store their totally weight in c value
         c = sum(cost(G, e) for e in E(T))
         print(f'The cost of this spanning tree is {c}')
    return T
