@@ -2,6 +2,7 @@ import networkx as netx
 import matplotlib.pyplot as plt
 
 def show_weighted_graph(G):
+    #the function draws a graph, and label edge with weight
     pos = netx.planar_layout(G)
     netx.draw(G, pos)
     labels = netx.get_edge_attributes(G, 'weight')
@@ -9,6 +10,7 @@ def show_weighted_graph(G):
     plt.show()
     
 def draw_subtree(G, T):
+    #the function draw a sub_graph T from main tree G
     pos = netx.planar_layout(G)
     netx.draw_networkx(G, pos)
     labels = netx.get_edge_attributes(G, 'weight')
