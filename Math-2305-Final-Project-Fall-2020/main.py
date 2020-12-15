@@ -1,7 +1,7 @@
 import networkx as nx
 from algorithms import prims_algorithm
 
-#the function asks whether the user wish to see an example graph from text file graph
+#the function asks whether the user wishes to see an example graph from text file graph
 #or to input their own graph
 val = input("Indicate (1) if you want to see example graph or (2) to input the graph: ")
 if int(val) == 1:
@@ -18,8 +18,8 @@ if int(val) == 1:
     T = prims_algorithm(G, 0, showCost, showGraph)
     
 if int(val) == 2:
-    #user input graph requests user to input their desire graph using syntax: x x x.
-    #after that the progams ask user Y and N in order to show the cost of their graph
+    #user input graph requests user to input their desired graph using syntax: x x x.
+    #after that the program asks user Y and N in order to show the cost of their graph
     #and the graph
     print("  Enter the edges. Enter -1 0 0 to finish data imput")
     print("  The syntax is Source Destination Weight.")
@@ -29,9 +29,9 @@ if int(val) == 2:
     G = nx.Graph() #create an empty graph
     while True:
         #src = source node, dest = destination node, weight = value of the edge
-        #the progam read the input of the user, if the input is start with -1. the loop exterminates
+        #the program read the input of the user, if the input starts with -1. the loop exterminates
         src, dest, weight =  [int(x) for x in input(f'Input edge number {i}: ').split()]
-        if src == -1: break;   #check point whether the input is process 
+        if src == -1: break;   #check point whether the input is processed 
         G.add_edge(src, dest, weight = weight) #add an edge to the graph G
         i+=1
         
