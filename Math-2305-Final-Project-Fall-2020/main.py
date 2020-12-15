@@ -1,12 +1,12 @@
 import networkx as nx
 from algorithms import prims_algorithm
 
-doContinue = 1
+doContinue = 'y'
 
 #the function asks whether the user wishes to see an example graph from text file graph
 #or to input their own graph. User enters a while loop for continuous input
 
-while doContinue != 0:
+while doContinue == 'y':
     val = input("Indicate (1) if you want to see example graph or (2) to input the graph: ")
         
     if int(val) == 1:
@@ -53,5 +53,4 @@ while doContinue != 0:
         showGraph = True if not val=='Y' else False
         T = prims_algorithm(G, 0, showCost, showGraph)
     print("Program Completed !")
-    
-    doContinue = input("Do you want to try again? (0) Yes (1) No: ")
+    doContinue = input("Do you want to try again? (y) Yes (n) No: ")
