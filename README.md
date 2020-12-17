@@ -17,7 +17,7 @@ In this project we are implementing Prim's Algorithm to solve the minimum spanni
 Prim's algorithm is a greedy algorithm that is guaranteed to return the Minimum Spanning Tree (MST) for a weighted undirected graph. [^1] The algorithm will start at any given vertex. From there it will then choose to travel along the minimum cost edge in the graph that (1) maintains the tree and (2) does not create a cycle, or loop. It will continue to iterate until the resulting tree spans the graph, i.e. the vertex set of the tree created by Prim's algorithm, V(T), contains the same elements (vertices) as the vertex set of the graph, V(G). 
 
 ### Graph Example
-This is an example of a graph created by our program. Of course, the graph will change according to the Gx.txt file that the program runs. 
+This is an example of a graph created by our program. Of course, the graph will change according to the Gx.txt file or the graph the user manually enters.
 
 ![](PNGs/samplePNG.PNG)
 
