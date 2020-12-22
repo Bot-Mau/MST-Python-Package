@@ -1,4 +1,4 @@
-# Solving the Minnimum Spanning Tree problem [![](https://img.shields.io/badge/build-passing-<brightgreen>.svg)](https://shields.io/)
+# Solving the Minimum Spanning Tree problem [![](https://img.shields.io/badge/build-passing-<brightgreen>.svg)](https://shields.io/)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
